@@ -1,6 +1,12 @@
 
 import { useState } from "react";
 
+interface Props {
+    items: string[];
+    heading: string;
+    onSelected: (item: string) => void;
+}
+
 function ListGroup() {
   let items = ["Edenvale", "Boksburg", "London", "Tokyo"];
   //Hook

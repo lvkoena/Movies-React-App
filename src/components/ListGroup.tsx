@@ -8,7 +8,7 @@ interface Props {
 }
 
 function ListGroup() {
-  let items = ["Edenvale", "Boksburg", "London", "Tokyo"];
+  let items = ["Primrose", "Boksburg", "London", "Tokyo"];
   const [selectedIndex, setSelectedIndex] = useState(-1);
 
   return (

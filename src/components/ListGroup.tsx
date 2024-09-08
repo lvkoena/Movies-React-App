@@ -9,7 +9,6 @@ interface Props {
 
 function ListGroup() {
   let items = ["Edenvale", "Boksburg", "London", "Tokyo"];
-  //Hook
   const [selectedIndex, setSelectedIndex] = useState(-1);
 
   return (
